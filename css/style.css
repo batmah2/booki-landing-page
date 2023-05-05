@@ -266,6 +266,7 @@ a {
 .populaires-cards {
   display: flex;
   flex-direction: column;
+  height: 100%;
   gap: 30px;
   margin-left: 10px;
   margin-right: 10px;
@@ -426,10 +427,9 @@ a {
   }
 
   .populaires-cards {
-    display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     width: 100%;
-    gap: 15px;
   }
 
   .populaires-cards .card {
@@ -679,18 +679,16 @@ a {
   }
 
   .populaires-title {
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
     width: 90%;
     margin-top: 30px;
   }
 
   .populaires-cards {
-    width: 100%;
-    display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;   
+    gap: 0;   
     margin: 0 0 0 0;
   }
 
